@@ -1,0 +1,139 @@
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: rgb(245, 243, 243);
+}
+header{
+/* border: 1px solid red; */
+height: 400px;
+color: white;
+background-image:url(img/blog.jpeg);
+background-size: contain;
+/* background-repeat: no-repeat; */
+background-color: rgba(0, 0, 0, 0.664);
+background-blend-mode: overlay;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    /* border: 1px solid green; */
+}
+.signup{
+    display: flex;
+    justify-content: space-between;
+}
+.linkitem{
+    list-style: none;
+    margin: 20px;
+}
+.sitename{
+    margin-right: 50px;
+    margin-left: -70px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.navitem{
+    text-decoration: none;
+    color: white;
+}
+.navlist{
+    display: flex;
+    margin-right: -250px;
+    padding-top: 10px;
+    /* border: 1px solid blue; */
+    
+}
+.signb{
+    height: 40px;
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+.intro{
+    padding:100px;
+    padding-right: 700px;
+}
+.blogsection{
+    display: flex;
+}
+.leftblog{
+    width: 65%;
+}
+.blogpost{
+    /* border: 1px solid rgb(231, 231, 231); */
+    width: 90%;
+    margin: 85px;
+    background-color: white;
+}
+.blogimg{
+    max-width: 100%;
+}
+.bloglink{
+    text-decoration: none;
+    color: black;
+}
+.blogdate{
+    background-color:orange;
+    color: white;
+    width: 15%;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 25px;
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    font-size: 20px;
+}
+.blogword{
+    font-size: 20px;
+    padding: 20px;
+}
+.rightblog{
+    margin: 0 auto;
+    
+}
+.searchdiv{
+    height: 220px;
+    width: 400px;
+    padding-top: 60px;
+    padding-left: 75px;
+    background-color: rgb(241, 238, 238);
+    margin-top:90px ;
+}
+.search{
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid rgb(238, 236, 236);
+    font-size: 15px;
+}
+.submit{
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid orange;
+    color: orange;
+    font-size: 15px;
+
+}
+.footer{
+    height: 80px;
+    color:white;
+    font-size: 25px;
+    font-style: monospace;
+    padding-top: 30px;
+background-color:rgb(20, 20, 20);
+text-align: center;
+    
+}
